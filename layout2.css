@@ -1,0 +1,49 @@
+.perspective{   
+    height: calc(600vh/7);
+
+    position: relative;
+}
+
+.some_text{
+    height: 60vh;
+    width: 50vw;
+
+    right: 80px;
+    top: 40px;
+
+    padding-top: 5vh;
+    position: absolute;
+    z-index: 3;
+
+}
+.some_text_cont{
+    
+}
+.some_text_text{
+    font-size: calc(110vw/32);
+    letter-spacing: 0.1em;
+    margin-right: -0.1em;
+    text-align: right;
+
+    z-index: 3;
+}
+.some_text_h{
+    font-size: calc(130vw/32);
+    letter-spacing: 0.1em;
+    margin-right: -0.1em;
+    text-align: right;
+
+    z-index: 3;
+}
+
+.spaceship{
+
+    height: calc(500vh/7);
+    width: 60vw;
+
+    left: 100px;
+    bottom: 50px;
+    position: absolute;  
+    
+    z-index: 2;
+}

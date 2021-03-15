@@ -1,0 +1,56 @@
+.presentation{
+    height: calc(100vh+300vh/11);
+    
+}
+.card_title{
+    height: calc(300vh/11);
+    width: 60vw;
+    margin-left: 20vw;
+    padding-top: calc(150vh/11);
+}
+.card_title_text{
+    text-align: center;
+    font-size: 35pt;
+    transform: translateY(-50%);
+}
+.card_container{
+    height: 100vh;
+
+    position: relative;
+}
+.card:hover{
+ cursor: pointer;
+}
+.cards{
+    height: calc(80% + 20px);
+    width: calc(85% + 20px);
+
+    left: calc(7.5% - 10px);
+    top: 10%;
+
+    position: absolute;
+}
+.card{
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+
+    border-radius: 35px;
+
+    position: absolute;
+}
+#front_card{
+    z-index: 999;
+
+}
+#center_card{
+    left: 10px;
+    top: 10px;
+    z-index: 100;
+
+}
+#backgr_card{
+    z-index: 0;
+    left: 20px;
+    top: 20px;
+
+}

@@ -1,0 +1,26 @@
+.scheme{
+    height: 300vh;
+
+    position: relative;
+}
+
+.tagline{
+    height: calc(300vh/7);
+    width: 100%;
+    padding-top: calc(150vh/7);
+
+    position: absolute;
+}
+.tagline_text{
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 5vw;
+}
+
+.spaceship_scheme{
+    height: calc(200vh + 400vh/7);
+    width: 100%;
+    bottom: 0;
+
+    position: absolute;
+}

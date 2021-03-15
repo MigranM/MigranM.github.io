@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,400i,600,700,900&display=swap&subset=cyrillic');
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.main_title_text{
+    font-weight: 600;
+}
+.big_name{
+    font-weight: 300;
+}
+.some_text_text{
+    font-weight: 700;
+}
+.some_text_h{
+    font-weight: 800;
+}
+.tagline{
+    font-weight: 700;
+}
+.card_title_text{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.carusel_title_text, .carusel_main_cont_head, .carusel_text{
+    font-weight: 300;
+}
+.ref_link{
+    font-weight: 100;
+    font-style: italic;
+}

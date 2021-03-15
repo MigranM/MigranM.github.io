@@ -1,0 +1,32 @@
+.ref{
+    height: calc(300vh/7);
+
+    position: relative;
+    
+}
+.ref_text{
+    height: 100%;
+    width: 40%;
+
+    padding-top: calc(150vh/7);
+    padding-left: 20%;
+    position: absolute;
+}
+
+.ref_link{
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    font-size: 20pt;
+}
+
+.ref_text:last-child{
+    right: 0;
+}
+.ref_logo_cont{
+    height: 90%;
+    width: 20%;
+    left: 40%;
+    top: 5%;
+
+    position: absolute;
+}
